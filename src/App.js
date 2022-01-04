@@ -1,7 +1,13 @@
 import "./App.css";
-
+import { BrowserRouter as Router } from "react-router-dom";
+// we import this without the index.js part because it's called index.js, and there is no need for that.
+import Navbar from "./components/Navbar";
 function App() {
-  return <div className="App">Hello</div>;
+  return (
+    <Router>
+      <Navbar />
+    </Router>
+  );
 }
 
 export default App;
