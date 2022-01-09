@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { MdArrowForward, MdKeyboardArrowRight } from "react-icons/md";
 
 export const HeroContainer = styled.div`
   background: #0c0c0c;
@@ -31,4 +32,61 @@ export const VideoBg = styled.video`
   //   The CSS object-fit property is used to specify how an <img> or <video> should be resized to fit its container.
   object-fit: cover;
   background: #232a34;
+`;
+
+export const HeroContent = styled.div`
+  z-index: 3;
+  max-width: 1200px;
+  position: absolute;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column:
+  align-items: center;
+`;
+
+export const HeroH1 = styled.h1`
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
+
+  @media screen and (max-width: 768px) {
+    font-size: 40px;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 32px;
+  }
+`;
+
+export const HeroP = styled.p`
+  margin-top; 24px;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  max-width: 600px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 28px;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 18px;
+  }
+`;
+
+export const HeroBtnWrapper = styled.div`
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+export const ArrowForward = styled(MdArrowForward)`
+  margin-left: 8px;
+  font-size: 20px;
+`;
+
+export const ArrowRight = styled(MdKeyboardArrowRight)`
+  margin-left: 8px;
+  font-size: 20px;
 `;
