@@ -17,6 +17,10 @@ const InfoSection = () => {
                 </BtnWrap>
               </TextWrapper>
             </Column1>
+            <Column2 />
+            <ImgWrap>
+              <Img />
+            </ImgWrap>
           </InfoRow>
         </InfoWrapper>
       </InfoContainer>
