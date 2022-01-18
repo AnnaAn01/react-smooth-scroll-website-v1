@@ -27,6 +27,9 @@ const InfoSection = ({
   buttonLabel,
   img,
   alt,
+  primary,
+  dark,
+  dark2,
 }) => {
   return (
     <>
@@ -43,7 +46,7 @@ const InfoSection = ({
                     smooth={true}
                     duration={500}
                     spy={true}
-                    exact={true}
+                    exact="true"
                     offset={-80}
                     primary={primary ? 1 : 0}
                     dark={dark ? 1 : 0}
