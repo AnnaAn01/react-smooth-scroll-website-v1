@@ -8,7 +8,6 @@ import {
   homeObjOne,
   homeObjTwo,
   homeObjThree,
-  homeObjFour,
 } from "../components/InfoSection/Data";
 
 const Home = () => {
@@ -26,7 +25,6 @@ const Home = () => {
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjThree} />
-      <InfoSection {...homeObjFour} />
     </>
   );
 };

@@ -57,20 +57,20 @@ export const homeObjThree = {
   darkText: true,
 };
 
-export const homeObjFour = {
-  id: "signup",
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
-  topLine: "Join Our Team",
-  headline: "Creating an account is extremely easy",
-  description:
-    "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
-  buttonLabel: "Start now",
-  imgStart: true,
-  img: imgUrl3,
-  alt: "Papers",
-  dark: true,
-  primary: true,
-  darkText: false,
-};
+// export const homeObjFour = {
+//   id: "signup",
+//   lightBg: false,
+//   lightText: true,
+//   lightTextDesc: true,
+//   topLine: "Join Our Team",
+//   headline: "Creating an account is extremely easy",
+//   description:
+//     "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
+//   buttonLabel: "Start now",
+//   imgStart: true,
+//   img: imgUrl3,
+//   alt: "Papers",
+//   dark: true,
+//   primary: true,
+//   darkText: false,
+// };
