@@ -1,5 +1,5 @@
 import React from "react";
-<Text>Forgot Password</Text>;
+
 import {
   Container,
   FormWrap,
